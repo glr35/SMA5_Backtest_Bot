@@ -1,35 +1,66 @@
-# Hisse Senedi Alım-Satım Botu
+# 🤖 Hisse Senedi Alım-Satım Botu
 
-Bu proje, Python kullanarak basit bir hisse senedi alım-satım botu oluşturur.
+Bu proje, Python kullanarak basit bir hisse senedi alım-satım botu oluşturur. 5-günlük hareketli ortalama stratejisi ile backtesting yapar ve sonuçları görselleştirir.
 
-## Özellikler
+## ✨ Özellikler
 
-- 5-günlük hareketli ortalama stratejisi
-- Backtesting ile performans analizi
-- Görselleştirme ile sonuç analizi
-- Temiz ve anlaşılır kod yapısı
+- 📊 **5-günlük hareketli ortalama stratejisi**
+- 🔄 **Otomatik backtesting**
+- 📈 **Görselleştirme ile sonuç analizi**
+- 💰 **Portföy değeri takibi**
+- 🎯 **Al/sat sinyalleri**
+- 📋 **Detaylı işlem raporu**
 
-## Kurulum
+## 🚀 Hızlı Başlangıç
 
-1. Gerekli kütüphaneleri yükleyin:
+### Gereksinimler
+```bash
+pip install pandas numpy matplotlib
+```
+
+### Kurulum
+1. Projeyi klonlayın:
+```bash
+git clone https://github.com/kullaniciadi/trading_bot.git
+cd trading_bot
+```
+
+2. Gerekli kütüphaneleri yükleyin:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Programı çalıştırın:
+3. Programı çalıştırın:
 ```bash
 python main.py
 ```
 
-## Nasıl Çalışır
+## 📊 Nasıl Çalışır
 
-1. Örnek hisse senedi verisi oluşturur
-2. 5-günlük hareketli ortalamayı hesaplar
-3. Al/sat sinyalleri üretir
-4. Backtesting yapar
-5. Sonuçları grafikle gösterir
+### Strateji
+- **Al Sinyali**: Hisse fiyatı > 5-günlük hareketli ortalama
+- **Sat Sinyali**: Hisse fiyatı < 5-günlük hareketli ortalama
 
-## Strateji
+### Backtesting
+- Başlangıç sermayesi: 10,000 TL
+- Otomatik al/sat işlemleri
+- Portföy değeri takibi
+- Performans analizi
 
-- **Al Sinyali**: Hisse fiyatı > 5-günlük MA
-- **Sat Sinyali**: Hisse fiyatı < 5-günlük MA
+## 📈 Sonuçlar
+
+Program şu bilgileri sağlar:
+- 💰 Final sermaye
+- 📈 Toplam getiri yüzdesi
+- 🔄 Toplam işlem sayısı
+- 📅 İşlem tarihleri
+- 📊 Görsel grafikler
+
+## 🛠️ Teknolojiler
+
+- **Python 3.8+**
+- **pandas** - Veri işleme
+- **numpy** - Matematiksel hesaplamalar
+- **matplotlib** - Görselleştirme
+
+## 📁 Proje Yapısı
